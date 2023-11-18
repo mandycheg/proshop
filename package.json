@@ -1,0 +1,15 @@
+{
+  "name": "proshop-v2",
+  "version": "1.0.0",
+  "description": "eCommerce application built with the MERN stack",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "main": "server.js",
+  "author": "Mandy Hegarty",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
