@@ -1,8 +1,10 @@
 import express from "express";
 // need to use .js for your own es modules
 import products from "./data/products.js";
+import dotenv from "dotenv";
+dotenv.config();
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 //initialize express
 const app = express();
